@@ -16,6 +16,5 @@ class SignupLayoutTest < ActionDispatch::IntegrationTest
     assert_select "label[for="password"]", count: 1
     assert_select "label[for="password_confirmation"]", count: 1
     assert_select "submit", count: 1
-    # assert_select "p.name", @users.last.name
   end
 end
